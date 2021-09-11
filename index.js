@@ -7,4 +7,4 @@ var yourAge = prompt("Enter Your Age: ");
 //This is how it will be when we work together on Bugshare.
 
 
-//Alright
+
