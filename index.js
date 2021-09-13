@@ -1,12 +1,29 @@
-var yourName = prompt("Enter Your Name: ");
-console.log("Your Name is " + yourName);
+const number1 = parseFloat(prompt("Enter First Number: "));
 
-var yourAge = prompt("Enter Your Age: ");
+const operator = prompt("Enter Operator");
 
-
-
-//Another benefit to Git is that we can collaborate on the same work now!.
-//This is how it will be when we work together on Bugshare.
+const number2 = parseFloat(prompt("Enter Second Number: "));
 
 
+let result;
+
+if (operator == '+') {
+    result = number1 + number2;
+
+}
+
+else if (operator == '-') {
+    result = number1 - number2;
+
+}
+else if (operator == '*') {
+    result = number1 * number2;
+}
+
+else {
+    result = number1 / number2;
+}
+
+
+window.alert("Result is " + result);
 
