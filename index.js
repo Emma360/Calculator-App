@@ -9,18 +9,11 @@ let result;
 
 if (operator == '+') {
     result = number1 + number2;
-
-}
-
-else if (operator == '-') {
+} else if (operator == '-') {
     result = number1 - number2;
-
-}
-else if (operator == '*') {
+} else if (operator == '*') {
     result = number1 * number2;
-}
-
-else {
+} else {
     result = number1 / number2;
 }
 
