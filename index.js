@@ -22,4 +22,3 @@ if (operator == '+') {
 
 
 window.alert("Result is " + result);
-
