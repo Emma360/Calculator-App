@@ -1,15 +1,9 @@
-const num1 = parseFloat(prompt("Enter number1: "));
-const operator = prompt("Enter operator: ");
-const num2 = parseFloat(prompt("Enter number2: "));
 
-
-
-function add() {
-    if (operator == '+') {
+function add(num1, num2) {
          window.alert(num1 + num2);
     } 
-}
-add();
+
+add(100, 200);
 
 function subtract() {
     if (operator == '-') {
@@ -31,5 +25,6 @@ function divide() {
     } 
 }
 divide();
+
 
 
